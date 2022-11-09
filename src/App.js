@@ -5,7 +5,7 @@ import ShowShoppingList from './components/ShowList/ShowShoppingList';
 function App() {
   return (
     <div className="App">
-      <h1>My Shopping List</h1>
+      <h1 className="App">My Shopping List</h1>
       <ShopingListInput />
       <ShowShoppingList />
     </div>
